@@ -1,0 +1,4 @@
+name = "worker-mute-bush-d79a"
+main = "src/worker.js"
+compatibility_date = "2024-04-23"
+workers_dev = true
