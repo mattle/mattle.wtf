@@ -10,6 +10,6 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response('Goodbye World!');
+    return new Response('Goodbye Monsters! 🦖');
   },
 };
