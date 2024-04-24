@@ -10,8 +10,9 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response('Hello Monsters! 🦖🧌', {
+    return new Response('<!DOCTYPE><html lang="en-US"><head><title>Mattle.WTF</title></head><body><h1>Hello Monsters!</h1></body></html>', {
       headers: {
+        "Content-Type":"text/html",
         "X-Frame-Options": "DENY",
         "X-Content-Type-Options": "nosniff",
         "Referrer-Policy": "no-referrer",
