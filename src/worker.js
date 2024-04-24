@@ -10,6 +10,18 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response('Hello Monsters! 🦖🧌');
+    return new Response('Hello Monsters! 🦖🧌', {
+      headers: {
+        "content-type":"text/html",
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "no-referrer",
+        "Permissions-Policy": "document-domain=()",
+        "Content-Security-Policy": "script-src 'self'; frame-ancestors 'none';",
+        "X-Robots-Tag": "nosnippet",
+        "X-Robots-Tag": "noindex",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      },
+    });
   },
 };
