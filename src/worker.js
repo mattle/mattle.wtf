@@ -10,7 +10,7 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response('Hello Monsters! 🦖🧌', {
+    return new Response('<h1>Hello Monsters! 🦖🧌</h1>', {
       headers: {
         "X-Frame-Options": "DENY",
         "X-Content-Type-Options": "nosniff",
