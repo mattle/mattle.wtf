@@ -10,7 +10,7 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response('<!DOCTYPE><html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Mattle.WTF</title></head><body><h1>Hello Monsters! 🦖</h1></body></html>', {
+    return new Response('<!DOCTYPE html><html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Mattle.WTF</title></head><body><h1>Hello Monsters! 🦖</h1></body></html>', {
       headers: {
         "Content-Type":"text/html",
         "Content-Encoding":"utf-8",
