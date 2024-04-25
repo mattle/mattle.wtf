@@ -10,7 +10,8 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response(`<!DOCTYPE html>
+    return new Response(`
+                         <!DOCTYPE html>
                          <html lang="en-US">
                          <head>
                           <meta charset="UTF-8">
