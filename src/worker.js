@@ -16,7 +16,7 @@ export default {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Mattle.WTF</title>
+<title>Mattle, WTF?</title>
 </head>
 <body>
 <h1>Hello Monsters! 🦖</h1>
