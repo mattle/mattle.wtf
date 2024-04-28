@@ -31,7 +31,8 @@ export default {
         "Permissions-Policy": "document-domain=()",
         "Content-Security-Policy": "script-src 'self'; frame-ancestors 'none';",
         "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-        "X-Robots-Tag": "noindex, noarchive, nosnippet"
+        "X-Robots-Tag": "noindex, noarchive, nosnippet",
+        "X-XSS-Protection": "1; mode=block"
       },
     });
   },
