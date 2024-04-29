@@ -19,7 +19,7 @@ export default {
 <title>Mattle, WTF?</title>
 </head>
 <body>
-<h1>Hello Monsters! 🦖</h1>
+<h1>Hello Monsters!?🦖</h1>
 </body>
 </html>`, {
       headers: {
