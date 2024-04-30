@@ -17,6 +17,16 @@ export default {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mattle, WTF?</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+</style>
 </head>
 <body>
 <h1>Hello Monsters!?🦖</h1>
