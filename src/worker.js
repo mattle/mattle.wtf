@@ -29,7 +29,7 @@ body {
 </style>
 </head>
 <body>
-<h1>Hello Monsters!🦖🦖🦖</h1>
+<h1>Hello!🦖🦖🦖</h1>
 </body>
 </html>`, {
       headers: {
