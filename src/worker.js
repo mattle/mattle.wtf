@@ -23,6 +23,7 @@ export default {
 </body>
 </html>`, {
       headers: {
+        "status": "200 OK",
         "Content-Type":"text/html",
         "Content-Encoding":"utf-8",
         "X-Frame-Options": "DENY",
