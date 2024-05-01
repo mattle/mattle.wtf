@@ -29,7 +29,7 @@ body {
 </style>
 </head>
 <body>
-<marquee><h1>🦖🦖🦖 Hello! 🦖🦖🦖</h1></marquee>
+<marquee><h1>🦖🦖🦖 Hello! 🦖<blink>🦖</blink>🦖</h1></marquee>
 </body>
 </html>`, {
       headers: {
