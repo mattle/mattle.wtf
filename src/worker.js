@@ -16,6 +16,7 @@ export default {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Mattle, WTF?</title>
+<script>console.log("test");</script>
 <style>
 body {
   font-family: Arial, sans-serif;
