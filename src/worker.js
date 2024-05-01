@@ -25,9 +25,17 @@ body {
   padding: 0;
 }
 </style>
+<script>
+  window.onload = () => {
+    const glitch = document.getElementById('glitch');
+    setInterval(() => {
+      glitch.innerText = String.fromCharCode(Math.floor(Math.random() * 65535));
+    }, 100);
+  };
+</script>
 </head>
 <body>
-<marquee><h1>🦖🦖🦖 Hello! 🦖🦖🦖</h1></marquee>
+<marquee><h1>🦖🦖🦖 Hello! 🦖<span id="glitch">🦖</span>🦖</h1></marquee>
 </body>
 </html>`, {
       headers: {
