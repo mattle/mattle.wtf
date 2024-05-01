@@ -23,7 +23,6 @@ body {
   color: #ccc;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 </style>
 </head>
