@@ -27,7 +27,7 @@ body {
 </style>
 </head>
 <body>
-<marquee><h1>🦖🦖🦖 Hello! 🦖<span id="glitch">🦖</span>🦖</h1></marquee>
+<marquee><h1>🦖🦖🦖 Hello! 🦖🦖🦖</h1></marquee>
 </body>
 </html>`, {
       headers: {
