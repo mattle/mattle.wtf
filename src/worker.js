@@ -10,7 +10,7 @@
 
 export default {
   async fetch(request, env, ctx) {
-    const headers = {
+    const headers = { headers:{
       "Content-Type":"text/html",
       "Content-Encoding":"utf-8",
       "X-Frame-Options": "DENY",
@@ -21,7 +21,7 @@ export default {
       "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
       "X-Robots-Tag": "noindex, noarchive, nosnippet",
       "X-XSS-Protection": "0"
-    };
+    }};
     const html = `<!DOCTYPE html>
       <html lang="en-US">
       <head>
@@ -42,6 +42,6 @@ export default {
       <marquee><h1>🦖🦖🦖 Hello! 🦖🦖🦖</h1></marquee>
       </body>
       </html>`;
-    return new Response(html, {headers: headers});
+    return new Response(html, headers);
   },
 };
