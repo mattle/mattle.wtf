@@ -16,7 +16,7 @@ export default {
       "X-Frame-Options": "DENY",
       "X-Content-Type-Options": "nosniff",
       "Referrer-Policy": "no-referrer",
-      "Permissions-Policy": "document-domain=()",
+      //"Permissions-Policy": "document-domain=()",
       "Content-Security-Policy": "script-src 'self'; frame-ancestors 'none';",
       "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
       "X-Robots-Tag": "noindex, noarchive, nosnippet",
