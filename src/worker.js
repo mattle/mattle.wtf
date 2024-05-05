@@ -39,8 +39,7 @@ export default {
       </style>
       </head>
       <body>
-      <marquee><h1>🦖🦖🦖 Hello! 🦖🦖🦖</h1></marquee>
-      <p>Your lucky number is ${luckyNumber}.</p>
+      <marquee><h1>🦖🦖🦖 Hello! Your lucky number is ${luckyNumber}. 🦖🦖🦖</h1></marquee>
       </body>
       </html>`;
     return new Response(html, headers);
