@@ -10,6 +10,7 @@
 
 export default {
   async fetch(request, env, ctx) {
+    const luckyNumber = Math.floor(Math.random() * 100);
     const headers = { headers:{
       "Content-Type":"text/html",
       "Content-Encoding":"utf-8",
@@ -39,6 +40,7 @@ export default {
       </head>
       <body>
       <marquee><h1>🦖🦖🦖 Hello! 🦖🦖🦖</h1></marquee>
+      <p>Your lucky number is ${luckyNumber}.</p>
       </body>
       </html>`;
     return new Response(html, headers);
